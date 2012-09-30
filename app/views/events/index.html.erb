@@ -2,6 +2,7 @@
 
 <table>
   <tr>
+    <td>Group</th>
     <th>Name</th>
     <th>Location</th>
     <th>Date</th>
@@ -13,6 +14,7 @@
 
 <% @events.each do |event| %>
   <tr>
+    <td><%= event.group.name%></td>
     <td><%= event.name %></td>
     <td><%= event.location %></td>
     <td><%= event.date %></td>
@@ -27,3 +29,4 @@
 <br />
 
 <%= link_to 'New Event', new_event_path %>
+<%= link_to 'Groups', groups_path %>
