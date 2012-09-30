@@ -1,4 +1,8 @@
 Firstapp::Application.routes.draw do
+  resources :events
+
+  resources :groups
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

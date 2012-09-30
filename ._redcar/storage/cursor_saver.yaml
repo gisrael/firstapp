@@ -1,0 +1,12 @@
+--- 
+cursor_positions: 
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2012-09-16 13:44:46 -04:00
+  - :path: db/migrate/20120930173110_create_events.rb
+    :cursor_offset: 226
+    :timestamp: 2012-09-30 13:32:48.877000 -04:00
+  - :path: db/migrate/20120930172833_create_groups.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-30 13:28:33.932000 -04:00
+files_to_retain: 0
