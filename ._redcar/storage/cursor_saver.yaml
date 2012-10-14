@@ -9,7 +9,27 @@ cursor_positions:
   - :path: db/migrate/20120930172833_create_groups.rb
     :cursor_offset: 0
     :timestamp: 2012-09-30 13:28:33.932000 -04:00
+  - :path: app/models/event.rb
+    :cursor_offset: 100
+    :timestamp: 2012-09-30 13:56:26.452000 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 1527
+    :timestamp: 2012-09-30 13:40:30.533000 -04:00
+  - :path: db/schema.rb
+    :cursor_offset: 998
+    :timestamp: 2012-09-30 13:33:52.669000 -04:00
+  - :path: app/views/events/_form.html.erb
+    :cursor_offset: 1273
+    :timestamp: 2012-10-13 23:51:38.449000 -04:00
+    :selection_offset: 1279
+    :block_selection_mode: false
   - :path: app/views/groups/_form.html.erb
+    :cursor_offset: 447
+    :timestamp: 2012-10-13 23:52:05.281000 -04:00
+  - :path: app/views/groups/index.html.erb
     :cursor_offset: 0
-    :timestamp: 2012-09-30 13:28:34.610000 -04:00
+    :timestamp: 2012-10-13 23:50:09.534000 -04:00
+  - :path: app/views/events/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-13 23:46:51.591000 -04:00
 files_to_retain: 0
