@@ -1,6 +1,7 @@
 --- 
 open_files: 
-  - app/views/events/_form.html.erb
-  - app/views/groups/_form.html.erb
-  - app/views/groups/index.html.erb
-  - app/views/events/index.html.erb
+  - spec/models/group_spec.rb
+  - app/models/group.rb
+  - spec/requests/events_spec.rb
+  - spec/requests/groups_spec.rb
+  - spec/models/event_spec.rb
