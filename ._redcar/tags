@@ -1,10 +1,11 @@
-1350939590
+1351439223
 Application	C:/Users/Izzy/Documents/Code/firstapp/config/application.rb	  class Application 
 ApplicationController	C:/Users/Izzy/Documents/Code/firstapp/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Izzy/Documents/Code/firstapp/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	C:/Users/Izzy/Documents/Code/firstapp/test/performance/browsing_test.rb	class BrowsingTest 
 CreateEvents	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20120930173110_create_events.rb	class CreateEvents 
 CreateGroups	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20120930172833_create_groups.rb	class CreateGroups 
+DeviseCreateUsers	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20121028154449_devise_create_users.rb	class DeviseCreateUsers 
 Event	C:/Users/Izzy/Documents/Code/firstapp/app/models/event.rb	class Event 
 EventTest	C:/Users/Izzy/Documents/Code/firstapp/test/unit/event_test.rb	class EventTest 
 Events	C:/Users/Izzy/Documents/Code/firstapp/spec/requests/events_spec.rb	describe "Events" do
@@ -24,8 +25,10 @@ GroupsHelper	C:/Users/Izzy/Documents/Code/firstapp/app/helpers/groups_helper.rb	
 GroupsHelperTest	C:/Users/Izzy/Documents/Code/firstapp/test/unit/helpers/groups_helper_test.rb	class GroupsHelperTest 
 ScrollSpy	C:/Users/Izzy/Documents/Code/firstapp/public/js/bootstrap.js	function ScrollSpy(element, options)
 TestCase	C:/Users/Izzy/Documents/Code/firstapp/test/test_helper.rb	class ActiveSupport::TestCase
+User	C:/Users/Izzy/Documents/Code/firstapp/app/models/user.rb	class User 
 change	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20120930172833_create_groups.rb	  def change
 change	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20120930173110_create_events.rb	  def change
+change	C:/Users/Izzy/Documents/Code/firstapp/db/migrate/20121028154449_devise_create_users.rb	  def change
 clearMenus	C:/Users/Izzy/Documents/Code/firstapp/public/js/bootstrap.js	function clearMenus()
 create	C:/Users/Izzy/Documents/Code/firstapp/app/controllers/groups_controller.rb	  def create
 create	C:/Users/Izzy/Documents/Code/firstapp/app/controllers/events_controller.rb	  def create
