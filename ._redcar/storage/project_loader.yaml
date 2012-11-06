@@ -1,3 +1,5 @@
 --- 
 open_files: 
-  - app/views/layouts/application.html.erb
+  - app/models/group.rb
+  - app/views/groups/index.html.erb
+  - app/views/events/_form.html.erb
