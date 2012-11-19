@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+$(function () {
+  var $element = $('button[name=help]');
+  $element.click(function () {
+    console.log("Someone clicked me!");
+    var $text = document.getElementById('helptext');
+    $text.style.visibility = 'visible'
+  });
+});
