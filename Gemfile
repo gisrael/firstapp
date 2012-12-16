@@ -10,6 +10,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'debugger'
   gem 'capybara'
+  gem "jquery-rails"
+  gem "watu_table_builder", :require => "table_builder"
 end
 group :production do
   gem 'pg'

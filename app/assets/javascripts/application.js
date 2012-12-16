@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require jquery-ui
 $(function () {
   var $element = $('button[name=help]');
   $element.click(function () {
@@ -21,3 +22,4 @@ $(function () {
     $text.style.visibility = 'visible'
   });
 });
+
