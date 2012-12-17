@@ -28,39 +28,18 @@
 
 
     <div class="container">
-      <h1>Listing events</h1>
+      <h1>Events Calender</h1>
+      
 
-<table cellpadding="10">
-  <tr>
-    <td>Group</th>
-    <th>Name</th>
-    <th>Location</th>
-    <th>Date</th>
-    <th>Time</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @events.each do |event| %>
-
-  <tr>
-    <td><%= event.group.name%></td>
-    <td><%= event.name %></td>
-    <td><%= event.location %></td>
-    <td><%= event.date %></td>
-    <td><%= event.time %></td>
-    <td><%= link_to 'Show', event %></td>
-    <td><%= link_to 'Edit', edit_event_path(event) %></td>
-    <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+<%= calendar @events do |event| %>
+  <div><%= link_to event.name, event %></div>
 <% end %>
-</table>
+
 
 <br />
 
 <%= link_to 'New Event', new_event_path %>
-<%= link_to 'Groups', groups_path %>
+
 
 
     </div> <!-- /container -->

@@ -1,13 +1,13 @@
 <head>
         <style>
       body {
-        padding-left: 200px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-left: 200px; 
       }
     </style>
 </head>
 <h1> Groups</h1>
 
-<table>
+<table cellpadding="10">
   <tr>
     <th>Name</th>
     <th></th>
@@ -19,9 +19,6 @@
   <tr>
     
     <td><%= group.name %></td>
-    <td><%= link_to 'Show', group %></td>
-    <td><%= link_to 'Edit', edit_group_path(group) %></td>
-    <td><%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
@@ -29,7 +26,7 @@
 <br />
 
 <%= link_to 'New Group', new_group_path %>
-<%= link_to 'Events', events_path %>
+
 <br />
 <button name="help" class="buttons" type="button">Help!</button>
 <br />

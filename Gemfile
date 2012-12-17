@@ -11,7 +11,7 @@ group :development, :test do
   gem 'debugger'
   gem 'capybara'
   gem "jquery-rails"
-  gem "watu_table_builder", :require => "table_builder"
+  gem "simple_calendar"
 end
 group :production do
   gem 'pg'
@@ -31,7 +31,6 @@ end
 
 gem 'jquery-rails'
 
-gem 'devise'
 gem 'newrelic_rpm'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
