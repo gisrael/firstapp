@@ -10,7 +10,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'debugger'
   gem 'capybara'
-  gem "jquery-rails"
   gem "simple_calendar"
 end
 group :production do
@@ -29,7 +28,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
 
 gem 'newrelic_rpm'
 # To use ActiveModel has_secure_password
